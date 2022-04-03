@@ -72,6 +72,7 @@ class Puzzle:
 
         print("Jumlah inversi yang terjadi", total)
         print("Parity:", x)
+        print("Alpha:", total + x, "(even)" if (total+x) % 2 == 0 else "(odd)")
     
         return (total + x) % 2 == 0
 
